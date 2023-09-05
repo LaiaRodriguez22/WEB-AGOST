@@ -7,7 +7,7 @@ html{
     background-image: url('https://baldursgate3.game/masks/smoke.jpg');
     background-color:#0f0b06!important;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body{ 
