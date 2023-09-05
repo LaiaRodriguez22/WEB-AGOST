@@ -23,6 +23,12 @@ main{
     padding-top:10%;
 }
 
+.border{
+    width:100%;
+    content: '';
+    border-top:1px solid #fbcea0;
+}
+
 .nav-laia{
     position:fixed;
     display: flex;
@@ -75,7 +81,7 @@ main{
 }
 
 .titl-main > h1{
-    color:#fff!important;
+    color:#eee!important;
     font-weight: 800;
     font-family: 'Markazi Text', serif;
 }
@@ -91,4 +97,23 @@ main > p{
     text-transform: lowercase;
     font-weight: 100;
     margin-block-end: -1.37em;
+}
+
+.loremipsum{
+    position:relative;
+    width:30%;
+    height:auto;
+    margin:0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    line-height: 155%;
+    color:#fbcea0;
+}
+
+.about-bg{
+    width:100%;
+    height:auto;
+    background-image: url('https://baldursgate3.game/about/about-homepage.png');
+    margin: 0 auto;
+    padding: 240px;
 }
