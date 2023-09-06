@@ -118,3 +118,10 @@ main > p{
     margin: 0 auto;
     padding: 240px;
 }
+
+.about-bg h1 > span{
+    padding-left:5px;
+    padding-right:5px;
+    background-color:red;
+    color:cyan;
+}
